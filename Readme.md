@@ -2,17 +2,17 @@
 
 Simple Slack chatbot using serverless infrastructure on AWS.
 
-This is taken from an aCloudGuru class onchatbots.
+This is taken from an [aCloudGuru](https://acloud.guru/) class on chatbots.
 
 Expect changes.  :-)
 
-# deploying the bot
+## deploying the bot
 
 ```bash
 bash> sls deploy -v
 ```
 
-# deploying the website
+## deploying the website
 
 ```bash
 bash> aws s3 sync --delete site/ s3://<site-bucket>/
@@ -20,11 +20,11 @@ bash> aws s3 sync --delete site/ s3://<site-bucket>/
 
 Then use the site to install to a Slack team.
 
-# configuring slack
+## configuring slack
 
-   ...tdb...
+   ...tbd...
 
-# using the chatbot
+## using the chatbot
 
 In a channel:
 
